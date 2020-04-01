@@ -5,17 +5,28 @@ from scapy.all import sr1,IP,ICMP
 
 class LayerData(object):
 	"""docstring for ClassName"""
-	def __init__(self):
-		super(ClassName, self).__init__()
-		self.name = None
+	def __init__(self,name):
+		#super(ClassName, self).__init__()
+		self.name = name
 		self.attribute = None
 	
+	def setAttribute(self):
+		self.attribute = {'dst': '192.168.0.1'}
 
 
-protocol1 = "IP"
-ipdst = "192.168.0.1"
-protocol2 = "ICMP"
+layerData1 = LayerData('IP')
+layerData1.setAttribute()
+layerData2 = LayerData('ICMP')
 
-p=sr1(eval(protocol1)(dst= ipdst)/eval(protocol2)())
+cmdStr = layerData1.name + '(' + 'dst' + '=' + ' \'192.168.0.1\'' + ')' +'/' + layerData2.name +'(' +''+ ')'
+
+print (cmdStr)
+
+
+p = sr1(eval(cmdStr))
 if p:
-    p.show()
+	p.show()
+
+#p=sr1(eval(protocol1)(dst= ipdst)/eval(protocol2)())
+#if p:
+#    p.show()
