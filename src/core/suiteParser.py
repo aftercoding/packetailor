@@ -1,11 +1,6 @@
-class SuiteParser(object):
-	"""docstring for SuiteP
-arser"""
-	def __init__(self, arg):
-		super(SuiteParser, self).__init__()
-		self.arg = arg
-		
+# import sys
 
+		
 
 class LayerData(object):
 	"""docstring for ClassName"""
@@ -14,10 +9,13 @@ class LayerData(object):
 		self.name = name
 		self.attribute = None
 	
-	def setAttribute(self):
-		self.attribute = {'dst': '192.168.0.1'}
+	def setAttribute(self,attribute):
+		# self.attribute = {'dst': '192.168.0.1'}
+		self.attribute = attribute
 
+	def getAttribute(self):
+		return self.attribute 
 
-layerData1 = LayerData('IP')
-layerData1.setAttribute()
-layerData2 = LayerData('ICMP')
+# layerData1 = LayerData('IP')
+# layerData1.setAttribute()
+# layerData2 = LayerData('ICMP')
