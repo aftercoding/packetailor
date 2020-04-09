@@ -6,29 +6,40 @@ class PacketSuiter(object):
 	def __init__(self):
 		super(PacketSuiter, self).__init__()
 		self.actionType = 'Sr'
-		self.layerDataList = None
+		self.layerDataList = []
 		# self.cmdStr = ""
 	
 	def loadSuite(self,packetSuite):
-		pass
+		with open(packetSuite,'r') as f:
+			data = json.load(f)
+		# print (data)
+		for key in data:
+			# print(data[key])
+			ld = LayerData(key)
+			ld.setAttribute(data[key])
+			self.layerDataList.append(ld)
+
 	def jointCmd(self):
-		ld1 = LayerData("IP")
-		ld1.setAttribute({'dst': '192.168.0.1'})
-		ld2 = LayerData("ICMP")
-		layerDataList = [ld1,ld2]
+		# ld1 = LayerData("IP")
+		# ld1.setAttribute({'dst': '192.168.0.1'})
+		# ld2 = LayerData("ICMP")
+		# layerDataList = [ld1,ld2]
 		cmdStr = ""
-		for ld in layerDataList :
+		for ld in self.layerDataList:
 			cmdStr += ld.name +'('
 			attributeDict = ld.getAttribute()
-			if(attributeDict is not None):
+			if(attributeDict):
 				for key in attributeDict :
-					print (key)
 					cmdStr += key
 					cmdStr += '=\''
 					cmdStr += attributeDict[key]
-					cmdStr += '\'' + ')'
-				cmdStr +='/'
-		cmdStr +=')'
+					cmdStr +='\''
+					cmdStr += ','
+				cmdStr = cmdStr[:-1]
+			cmdStr += ')'
+			# cmdStr += ')'
+			cmdStr +='/'
+		cmdStr = cmdStr[:-1]
 		print (cmdStr)
 
 		return cmdStr
@@ -47,4 +58,5 @@ class PacketSuiter(object):
 
 if __name__ == '__main__':   
 	p = PacketSuiter()
+	p.loadSuite('D:\\packetailor\\samples\\ip-icmp.json')
 	p.jointCmd()

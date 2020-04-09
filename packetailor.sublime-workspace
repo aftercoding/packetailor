@@ -1,0 +1,667 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"e",
+				"executeCmd"
+			],
+			[
+				"Sr",
+				"sr1\tfunction"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/core/main.py",
+			"settings":
+			{
+				"buffer_size": 236,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/core/packetSuiter.py",
+			"settings":
+			{
+				"buffer_size": 1086,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/core/executer.py",
+			"settings":
+			{
+				"buffer_size": 135,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/core/suiteParser.py",
+			"settings":
+			{
+				"buffer_size": 433,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/packetailor/src",
+		"/D/packetailor/src/core",
+		"/D/packetailor/src/utility"
+	],
+	"file_history":
+	[
+		"/D/adobe/workspace/Nemo/src/utility/testSuite.py",
+		"/D/adobe/workspace/Nemo/src/testsuite/ts_RIBS.py",
+		"/D/packetailor/test.py",
+		"/D/packetailor/src/core/paserSuite.py",
+		"/D/packetailor/src/core/main.py",
+		"/D/adobe/workspace/Nemo/src/utility/xmlUtils.py",
+		"/D/adobe/workspace/Nemo/src/testsuite/run.py",
+		"/D/adobe/workspace/Nemo/src/testsuite/ts_CCM.py",
+		"/C/Users/wang/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/D/packetailor/src/core/python3-sublime-cfg.sublime-build"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "D:\\packetailor\\src"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/core/main.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 236,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								236,
+								236
+							]
+						],
+						"settings":
+						{
+							"SL.13.region_keys":
+							[
+								"SL.flake8.Highlights.|b3260468bd244b23f061a9da81a44c03f6ac7cf6854dfe373e1688f0f8ad6946|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|8bb7ded93e1e56f8d1bd01c244b1c10fe2b892c59d925333d08337d5c53a7bb0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|02029ad5368ba522519fcfaaf12c0ba028d0428d4e18f31738cbba4b105ea805|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|19294508c6acfa455c3567c2c39166a2998895cfa35e70aa235ddcb9c1fbbc7f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|785870b9016c82006fcfa19f834ac78fa613f1428a459174dbc49c5e5c95d661|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|58482722506bb8f38cf71493285bfb7cd8e4163f2546cadc13763262e9174ae2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|4f03acd592152724d2a137f487dfce481adbfb8870ab328b7e19cef2a3a9e549|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"sublime_linter.protected_regions"
+							],
+							"SL.15.region_keys":
+							[
+								"sublime_linter.protected_regions",
+								"SL.flake8.Highlights.|4f03acd592152724d2a137f487dfce481adbfb8870ab328b7e19cef2a3a9e549|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|58482722506bb8f38cf71493285bfb7cd8e4163f2546cadc13763262e9174ae2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|b3260468bd244b23f061a9da81a44c03f6ac7cf6854dfe373e1688f0f8ad6946|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|03efa5d75cc604763eeba135c9ef3278d2f1f947f0c4b12d49bbb55d9499ea86|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|19294508c6acfa455c3567c2c39166a2998895cfa35e70aa235ddcb9c1fbbc7f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|8bb7ded93e1e56f8d1bd01c244b1c10fe2b892c59d925333d08337d5c53a7bb0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|785870b9016c82006fcfa19f834ac78fa613f1428a459174dbc49c5e5c95d661|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Gutter.|region.yellowish markup.warning.sublime_linter|dot"
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/core/packetSuiter.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1086,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								998,
+								998
+							]
+						],
+						"settings":
+						{
+							"SL.14.region_keys":
+							[
+								"SL.flake8.Highlights.|5a2d988693e920924f74607df1d57756007723c8a5f618888db0c47806cb068d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|ace928d4e22f6fe4ad2b7b95c513f9040daa6197711594037673033a94bd3fd1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|8af351362cff2b764e1662a41f5966996e7d3d28308b76597aa953ed54fb2b89|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|50e4f0777621d6a2c76ff6b4d057e66df0dc3bcac3bf5ed9b73689732c99c09f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|23d674a95fe5fc6cf95360d4a2652af6b12209b035dddee12c5e99a36698b134|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|bda955995584d92bca0fe82eb92fb901656cfb292fd5926a2b67134938eea35c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|8faa9c2162f24ae2be5e6acece66ce76a36423a444d28d2ed7c45d521ce2b2ca|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|d900e5a7d88c59d5f35eea607fd6a16ad082f025930403cda3f8519b5afb1a0e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|1e4c36fe190e2a96fae7ec77bbc7ae993bc0788cffd2754c6ea238fba330c306|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|0bdcd5bd5fbe55d357375601793ffdb0c04b1e7c367343943eb433454e075043|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|197acd36b1b5367f1758ca18cdc476208cf6db1aaf0446fd54a5b9631c5b8707|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|da347052fe0d2014e0482646bc251a791fab437d28cd33a183cee886ea64e5f6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|fe4ecdc2fadc52652e0434be8b7196bfe1cf974f34ebff5719cb6229fc8d6269|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|cb60ac2818c32e80d141111aa2f082caaed03eb1357a1635300b73f21274943f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|784640f46c7218100dfe786d6496680c086b1dd0291043acd9a9a745577b4609|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|0f381830b9bc79f8bf203ab436df5f378be028052a7014005684624b32dcfa81|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|6bf7c6d98aecc5c86e0b3709932fcfcbfcf8c9de90d5733bf26282fd4bfa2dec|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|81bd120f2f0a3e3d66b10d303b2983a204c275f3074e43ffca8c050f67c9d4f8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|d6c866ec0d334c79e501673e9d0a5ee78a89d7a1f41605078a56d2a7c62398ff|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|b70ac83c74192a8ff3a227c5a3343ad23d7ff42ca160e55d2c988347562d9076|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|06e062db335de9dbbcfaebb858c54feda2edd9d7c983684b711cab86c709a269|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|bde391df1d45e68006c6d3920300362830f97d519e2044e1121240ed0e221b9d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|c8993d032ff08ed8f6648f89d4fed3ab47f8101f567dee767bd4014da69a9cea|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|5415c5a5b8b53b299c314f077bc12d95b740fcbf766e0ad18aa7697a8b4f9128|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|5e633be25d5ef949ca62400c4310a6319dd35d123e4d028d19eb2ce1dd995a76|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|8e7ae6eab22ab4306d15c74c35772016e2494d12f8bf7286b0af3ee258076bb0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|c6cd1feecd8f3911e991303fbce05d8ad7015ebf9ed3b41af3208a89bce2b515|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|0bbc587ef688aac0f4f5991dfc9f8eca36619081a97b0065896f4316da03e363|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|70d7baf03403344e2db72b5d3b1817e96c7bebe8de20fb39752038b52e112baf|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|e36ce50312cd79d9c445234a0024c9c2c78c427810df0763d5017d32fcd8a5fc|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|d23fc6e21de661cffb0d89c9d3e002118cc7720681e2a695c131efa07c486b13|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|3df523146cceb8fec21f9ec2f77da0bd5bb4c6f2c89a7102a912c144c6d58700|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|d2d181dd61385c4b50a823dafacf7571a4a28f1729a2fa50fe86347a5833b2c8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|505bf50df078aabccbfa9e550f4e1edb3fa3a13c3d5165f26e093353f0693d7d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|2398dffc84fb004bb73b9fb2f3298aacdbca9ce1fed124393eba43f1c1cfce33|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|a3aaadb321edac22d1a9ec79bfe83c3f1b2491949668b2f6573c0d6c4a934758|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|ffaa92275bee3de5802701c519c72334d6845d265882551cb63f60a48f97c3ef|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|f6aea30f6fddf0ba0696d6d7e5769cfbcc8761ad90123e7901e87d537846a258|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|fe65a74a8f7278fa6eb873645bde8bcce25cafeed2770f2120ea433b38e58faf|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.flake8.Highlights.|648a9d5ceea42afcc004c9d2570df83773cd86dde57159a4349fbfc244860608|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|9914ea6150f9bb439cba27bed5c315f6f9d1110019b22faed14e88ee430336bf|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|7bab0642b7611df00ab8ab7e87e508f767e1ab621c41ca9d23439bfdacd123e3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|6362ef729f7f44fa328844e6cf3f723141f96c122f3c32abc22565cdd22a477d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|9671b86accbfda315abc11c703f91e04f7698753e9626b952202380eaa98ed1b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|347b12db900cebbc79f9fbb3173b774b21a93edd95c0b888d7dc2ebee254d7de|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|568a0c9306d95dd5d9da9a0d801320ad7480ed192fe666c0fbdf16106d072bfa|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|f3b06094a4a4765bdb4f42818bfe29ec05417afed2831653d282d262ac78370a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|6f9a35b862835ed75656d7c236ecbee68707f21788b952e74321f1fc04e0723c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|0faaeca07894bfe555bb2b1d50cf9376b2a4fbad51d67c0a93e0154c0f228036|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|de9a9fae5fcc9f46bdd2cf637b875311bdeb319f7b4fa047e0dd511d330d1a52|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|cf41c5316d529b0c76bb24aa4e0bda1fcab90d49bacd5d6ca893a16dfe972491|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|e26ed18267411598e7ff6e1f5acc3cbc0e6942c84f476e3502f67fe64b76ace2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|957334c7a2da63378aad62ba627bd7c4887a0669e6b7ca5aa12000ca6dde2bc5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|fe894614d38509260eedf23db38e153c7ed3b4795cceae46b8503f2ca2e4026f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|2d6c9f1f954a402831fd43824264fa67fe203827d192145171717fed29185d86|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|f98e185dba9400550ab78b0b1610c66c0c7ea4d4f89482e4145aa5e7bb8fa4a8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|7f0a23c61a4ad560d13a5edf0ba4712994de0e956f3e1362bfaf3e309bcb190d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|2d821aac4c9f11c75817b4cc6c23efe98007e87469dd390e981b3eb23a3abafc|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|b85bbaa916075364786e0a430d64c105e65947898dbeacb1d404e4637f50a500|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|675e4fad7a0bd1fbc64da4cd7e49bba1a395ab6cb72bb32336935edaa71717bc|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|4d80b297d8d81ba350b4ea460c0a10d7aabd6f29b2ba8e9de90746d461421d06|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|c689c1a4be9285d20ac7c149a554ac84d33a6a45884c191284024b7e35fd2a3c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|f6b93847d2de85431e4fc09315a9d8418f184d325c5680160c3796ee71c7d7e5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|1f92e4ebdbbc1baf0d662c87974158cf55afaffe240bec9d948f5f1ffbf08980|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.flake8.Highlights.|da15957a3444b4a68d6dc63f1c609c78df3d23a279e39ce800c48843006e6ec7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|87bc805c4be29960288f0b96c0f1b71b308365d5919dca924f8fedffbdbaba2f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|81934e4c3bb3fb80214852e2a93498cdf997fc9d7efa9e28b5736e83727cd2e6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|63fa91bdbb1d564999e4d53391b8d5edde96657cd51603ae78e547ddd907392e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|2b2b965cbf1de6f6973949d6adbbdb3935943ec6f214c1763bec64d3b1d73e88|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|68422fd8f271832a6086f8fd1e6197e40d640f3f98cc42df3eb586eaa5e0aec5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|14c010a70d314a71290f956e775b8f6d95ab65691100673ba062fab5dd087cf6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|bf5a49994532f146bf52612f1e4bfd6da956f910aed015742acf03044b8a0ece|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|17d3940889b8900401ec9d10394806f0851ec2b59a254fe15477343c397f5e5f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|3eaf47a0ccfc95e71ab2592ac326ca96d6a582d670995259900d735c826f4834|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"SL.15.region_keys":
+							[
+								"SL.flake8.Highlights.|e16cd01f270ecaee5bf62d4f1b2dc2d3262c3c3774b4fec7aee79bc129821b63|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|e8304db8563cfb76c802bf177aff0b5b4c2b6a2abeefa34f16dec434ecd30b3f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|ed0c1fd08ee9d811958cd5fcfe395254b63677beabca4fe28f75f472b7e02ed7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|aba74c565726fe858c4ea900652f5b9901aa0feb8a4c115f970114cf68a30d04|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|3edb08c4ef2608b71c84514e6d3c9a0df61fd9ebae8d91acc1a6d0ec3c3a0f41|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|88c7a5abade3882b9d3adc5bb0b97cf23191cdc6f31aa169e97255bc37dab8ca|region.redish markup.error.sublime_linter|32",
+								"SL.flake8.Highlights.|e2174e206f6ea76e746a4bef624a7113d4e08aa884560ae614e54c3052bb9552|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|0f381830b9bc79f8bf203ab436df5f378be028052a7014005684624b32dcfa81|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.flake8.Highlights.|8bf26934c5fa7684683ec8284ee9fcde599c2dbf1d4819dabb40d7e45bc03f08|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|39572099d5987b0b224ebfaa7d399017db326a6c8d45ece188316711a9252a7a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|050e1f08d08f6d19467d01931368a5239673d0b7f00ebe2e41e6334b73bfddda|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|2fe5f550a038e22acc2c7432d0c8e03c525e95d93d55df90a8905e981cd8e542|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|ca69e290c95e1c3653870e87f5f616fd99032b3bdecbfc669a3fa16048b7b130|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|c774aaf9385f2640f01d3e760fcc232a4d5dcb5af6c9d2ae3e784ddaa2317706|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|60574a5827b2d3ffb93edb452f952fdad53e4759dda47418f5a973a0e5025794|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|23d674a95fe5fc6cf95360d4a2652af6b12209b035dddee12c5e99a36698b134|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|71693328099574d315f4314c1009c847ccbbdb6cecce145195c61cbd33dc929d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|72a1438c5ca8b911b00a1ddce8db71c4de0f293a7c9f2eac2071ad929ca56d19|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|2ba0e215f336eff1e304a741605af8e032bcda516055558002460ef9e59910d1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|df8fc7991545e20f91d7c4127923bf6fa7d64db29247c495940b1c1e78b99ffa|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|ae99b037780086a4b9644caa8610e65db75007cfa477becc3ce4320ba51ecd59|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|81934e4c3bb3fb80214852e2a93498cdf997fc9d7efa9e28b5736e83727cd2e6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|df4959d65dda1a1e498cb71b49fe0299f3b1e220dee8f83d10de4ef96c2e45ed|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|1d6b5cfad456b72eb2b7ac1f99484dc4261356ba43490039c60dc25e68a31386|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|bda955995584d92bca0fe82eb92fb901656cfb292fd5926a2b67134938eea35c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|a3aaadb321edac22d1a9ec79bfe83c3f1b2491949668b2f6573c0d6c4a934758|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|4a5bd45c32dc05280dc110ec9e054bb20741ed40397c22370da376f17669db33|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|f07ab0f1f29f2503e2ad412bf562ee0cac034408ac7962cc30e22da3ccc75314|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|9cdd419076ef32c99f9c9dc43395dd374e5480d49fab6c55e2ef545a0b5d0198|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|eb1d7d971959160c63a2dc611b9d0b5fe43aeacc81af8b12debbf3ab675aa6ef|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|cd86d6706b320f9d935e65f7d38823ca45810cc60184798df8cbcfe504d2a4eb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|008499c7c8e2b6b3a3ca70c483743b4b044a88c8d5741d2e5306b15dba463415|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|561998d552c9c43b93260809cf4da04c3631ba0334dd2d681c067e0557150e6d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|63c5ae7947b15ca799548dd8ae8e17ccf8707e06dc9584bcccdebd6a1a7e4865|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|a8d13754b8591c5fdb0dbebdb340eb2a8b4ae1319614f12b7bad6aa10b425751|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|8720880c8b4d401a3e69f82e4bb8cf8e74889b34de751a930afb2c5f9fc842f8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|9041aec3a861718d9fa1821901fb9931c6fe3d9c05c8ee488974b6a1697fd252|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|bde391df1d45e68006c6d3920300362830f97d519e2044e1121240ed0e221b9d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|0bdcd5bd5fbe55d357375601793ffdb0c04b1e7c367343943eb433454e075043|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.flake8.Highlights.|34af6018ed2e77d516f5274910207e5269e4578245e771f2e7ff8ca2d701f693|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|15ed5f5254228f3c0c4586f40400bdad145364945bc5212e23a5b26415e1eb37|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|f239d020f5faab93cb5b79ac8244ce4ae282b7fd4ede9c789e3253572d9e42e7|region.redish markup.error.sublime_linter|32",
+								"SL.flake8.Highlights.|197acd36b1b5367f1758ca18cdc476208cf6db1aaf0446fd54a5b9631c5b8707|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Gutter.|region.redish markup.error.sublime_linter|dot"
+							],
+							"SL.18.region_keys":
+							[
+								"SL.flake8.Highlights.|9e3dffd7a303f90a369811af82c48d91d128029482a921a61d8308ecaeb6364b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|094aec910caf06874b452c76e2415364b9ad50a5290049c5c9f36805da8b6ccb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|cc1442fcd91a2d42f595471095fd6cbdf9d04179be2fa74a7244781931db1964|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|6f722e9554607648a029ac3098d582df18d99940226a9a964371df3173a75b4b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|03251997aacc1e632e86dbb6f740e35b3fae2357412680fc291cab632bbb5e05|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|84d34e4b42e9844f1bdf1f96ff8714a70480039fdbe564898eb2125ed0a67b99|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|649fe08fdc5495a103addfd459ae2f29fc19112ac382c5e2ab2a503a6c596e94|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|15ed5f5254228f3c0c4586f40400bdad145364945bc5212e23a5b26415e1eb37|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|3bb5222f9eeab0a0399d569299a875f77e2f2be845e5cf86331f22685d54c99e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|1c3d11d36f0485a6866f080a06d84a644703c5dd6bcf7364153e755e888c3abb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|f082940c09938e9762d228fb64dab72ae08125c7bdb9ee30981184176c4953f8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|aed7c3766537ece4bf75ea4e01e497d0ca12ebcd3180ece28f07864db17b5176|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|54c1aae02e45fdc2a2dc4012a892e40f4a125e3bd77ad0fac8fa1ee67071e526|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|88b2ad8f417745f3018ec42d25cc0615256fc1cb4af3217935bb0223254d54a3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|6f1895535c055ff01a5809f3e80b48432ed33add6c57ecf6cd61636121552cb8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|211aba6c430f25c6d0dfaa318524dac2b42f0833da62b6dc4b904f35e0f586d1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|84aa3df88a1ac951294cb337098d3209c69e7db0a252e0e3295e6eecd6b05c40|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|ac03b417ce951188f652a20329cc84beaf88d308549f0fd8ffb517b5c8f1eaa3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|3f4c1809c362d022d9b76bcfbc87d3179355ca4cdb60ce52aa55fe3c58258396|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|193e3ab83dbf95f5e06ae14adb00013b8044f5c93a9b2211002b2979b6ee564e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|0141bdbf7e9320d3a766056d351853cf5d0bc0d5e8f91ab506a121027d553bcd|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|169ebfae24651e3f3ef1e78f6633f9724b4edcc869974b852919e859b3b29232|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|eedf0a06fdbf9f0b79da0f4bd7a90583ef2762fab6dc2235a209d8875d494f88|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|60eda918ab37a52843ec5c79411007636d5c11d0f83e9b1c40fba8a8244dd47e|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.flake8.Highlights.|fe617abc201c39979b4313b46863d049ef5f8c3efd1b21a2deb908f5ede31695|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|a84e88f35aefd62f9a571050a022307fcfcd92b152475c93c4a2530f85fbe47f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|3a36bee6e3cb4d12c9af7ef273eec32b84817aa53552a05ee1c64e9167a4cca9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|06de0d7e54ef5d0e0ac38eaed3cdb6e4794ad49413cb3adffabc51a0a3180898|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|136b939867c934fbec64f7499a56e917a27ca8fe2561c8005889bc492077d10e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|7ebd8458d22bd9341c57d500fbc1c9c4761102da8055be9401cf22ef44818da9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|7295beb682ac6ccc4c3f2f2e4d65c106dc5b0bdbbb3b5fc8a0e7ea429fa75fae|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|54ac24b35ce1ff9d45881be8021cb57b9b1ce17cd1bf13f622a226faef205311|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|fe23a3dcf798a1dd656f8f873fa1ca0ff54a26f7d90276ddab4dd523f8797f94|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|97ac343986684c7fa749c68b9ebd364760a06860e551cfe854d505140cb50c82|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Gutter.|region.yellowish markup.warning.sublime_linter|dot"
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 324.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/core/executer.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 135,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								135,
+								135
+							]
+						],
+						"settings":
+						{
+							"SL.14.region_keys":
+							[
+								"SL.flake8.Highlights.|2bea9872cf7f3538937b57d0be7cd7a5a97c405ccb4d3160a34388a73086e607|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|2940ee0f72012eb7066a3191e60a22e59fa16dc9290e113752ecedbadc92c46d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|63aab037184598156b21107ed3739095e3a062022f431f8d4931106fc6865368|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.flake8.Highlights.|e66a776ea0bb9047c15bb3ce228b9cf4884159c236d62fb98085500d1ec1c2dc|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.flake8.Highlights.|20d42cdcd6464ec8dfb644b5be5b155d5019e545148d0da20ba5f80712460c1a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|9acc2f4072035915e3343f8dbbb05737d4f6f168c5e7739cd12af8ce5ad0b9f7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|430a1b9bb373293aad25e593f39b60fe0c90e2ac6f91e51041be25b52c040709|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"SL.15.region_keys":
+							[
+								"SL.flake8.Highlights.|9acc2f4072035915e3343f8dbbb05737d4f6f168c5e7739cd12af8ce5ad0b9f7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|e66a776ea0bb9047c15bb3ce228b9cf4884159c236d62fb98085500d1ec1c2dc|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|2940ee0f72012eb7066a3191e60a22e59fa16dc9290e113752ecedbadc92c46d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.flake8.Highlights.|63aab037184598156b21107ed3739095e3a062022f431f8d4931106fc6865368|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|20d42cdcd6464ec8dfb644b5be5b155d5019e545148d0da20ba5f80712460c1a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|430a1b9bb373293aad25e593f39b60fe0c90e2ac6f91e51041be25b52c040709|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.flake8.Highlights.|2bea9872cf7f3538937b57d0be7cd7a5a97c405ccb4d3160a34388a73086e607|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"SL.19.region_keys":
+							[
+								"SL.flake8.Highlights.|20d42cdcd6464ec8dfb644b5be5b155d5019e545148d0da20ba5f80712460c1a|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.flake8.Highlights.|e66a776ea0bb9047c15bb3ce228b9cf4884159c236d62fb98085500d1ec1c2dc|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|9acc2f4072035915e3343f8dbbb05737d4f6f168c5e7739cd12af8ce5ad0b9f7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|63aab037184598156b21107ed3739095e3a062022f431f8d4931106fc6865368|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|2bea9872cf7f3538937b57d0be7cd7a5a97c405ccb4d3160a34388a73086e607|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|2940ee0f72012eb7066a3191e60a22e59fa16dc9290e113752ecedbadc92c46d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.flake8.Highlights.|430a1b9bb373293aad25e593f39b60fe0c90e2ac6f91e51041be25b52c040709|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/core/suiteParser.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 433,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								433,
+								433
+							]
+						],
+						"settings":
+						{
+							"SL.16.region_keys":
+							[
+								"SL.flake8.Highlights.|1b692f5f8ef9ea98f947360f50dd8436c0fd57c56509be7b3228259dd2c518db|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|88aa0b4b1339becc2e3da1464aae19d5e25102b6bece44bcea6bc92d8242fafa|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|47b40a2ca00fe36b9844d2951f087d7e85f7dddb67b2e14cc8010cf2e3d337cf|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|732740512f602737e97a606695b4c2149264c85d0620cf0a48dade7b7bb562fc|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|d1d3e7cdfb430e00a5c96b93e75e75e6a53913809e86166db347b09d17093677|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|1f9c59652da628137dfab2ca1f8b0a607526589faa8f5780fd3592875568e1ab|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|f0a9d7e0f162ce62fc5be315483a4ce9746cdfc611731e33c2aaf171d41c559a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.flake8.Highlights.|543aa7fb27b8a233303e80e7c335f33e2242d36bf6063cb98782afa11a57fe76|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|aaddaba9bfda8e04d71a18b1d834ea690829465be39e37f85f819aadbabd9627|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.flake8.Highlights.|b4d64fda7dbe18fbe31d4e13ca99c493d2722dbcc99ca98ebd49a2f5f51a2f2b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|2ebba6ecaf3dfb978fc51ff1e26f2c47ef7cb4c115a6ee2f5a296c14859a25fe|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|9934f28abbf7f732ede54d39ec39eedbb551986459d237891df701529c0fece8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|dc807c81a029ef2df77dcbfc3b02b350e060475872340d614a7b41b4791cacdf|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|9c68b87ebded7b827e6b54c618606a98bcc72e4ade08554fb5a5a3c5ca7adce2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|8dbf5131324adac41785c77ddbc2630bd38bb5e6e3d724b1de73ea0384dde4a1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|2e36e5dfb1ac883c1682aca0a217b39a6c850ac6754e82d3e4f323b69c98ae28|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|1af8842715217b48b8213ba211b4acee0a903b45d521d54d1ca13d1a32280d11|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|e4d53308476595dac980d77ceeb8938cff1f3c344248944597301c44941185ac|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|2666b1cb95ed46df403af8172ef1b8ab3cdc91a5662b9fc72834efd072bf25b2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|b7b2346fbcffeb1f50561410ff197b5ae6e7d49f1560ce0d35d1882a36d60b33|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|5aea98e57624f90266b2a0557dbb985fe3a3c38f81ea452ba236ef91e0f68c6d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|d79ba3f1e55ba30d56d912fee8e8a6f2d24d1459c2b25d0587d7287f22e96f18|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|64087dfa220faeb7f4ea5e3e21de43857750556ced4f5f037c52404ddb537f12|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"SL.17.region_keys":
+							[
+								"SL.flake8.Highlights.|8107c252d9f3b859f31a681d153af4ad8848ef6482c97cc9ff48ad70ea7eba52|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|b1019a2f41f7e9c52c7ba4f3d49035438e52c46c5c612f4072237469eebf911a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|055f2504b666d4b0a39b01a82d800e4ed506baaf02672b63c18fabf266d2f236|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|0b0f73436eda8fc6818d6b81a047090e403450293666e6d6bc5566ec619f86b6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|b7f1e84ca07f6fbead8c825702809b2a3d44ee95a026724d3cc1eed270af3afb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|5165afa68cdb812205e8fad654e2d02ffb298ba330bf5cd8b391ee52dea7b2ac|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|61be31bcd7fc8b6f102c935bd671466a5ff3079e604bba82f1136adbc41734a5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|c67611eee82b3a9d2a68fd2b7e696eba33e1e7c62a368bf084104646ce138a25|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|f3536633ed9a14e84e429ef09ec1c4dedf81fcfae82fdd9d5caef05761fdc473|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|ae1393f8dac2af19bac336a33abdad4728ada12a59d939ae4cc576f7fd67c3d0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|a42d2aa9d024e1148d72516526e0e15a3e965eccb89d522ff47bc3ee6e579b9d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|9b844860a26396fd328dc3762065308e1f6c660f87744c3b418628dc3d1244f1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|7935dc04c509d965310cf2ab8ad2a2d72fafdfd95d4989821a631ec7214259c9|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.flake8.Highlights.|d6f17c5ce78b4729bdb41acc88c617db2432dc2684930ae9c0a79df3d435f1b7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|f41afa7711e36a328c52ca86275f86a846585faf7d0c9ff567f00aeafba6ce44|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|0417f4658f679eee1f4b6202ede2325f623f13a6a2e4cad59cef66b960da17a4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|d6000947f6498bebbf92d459dbd8bd2648bee02660dbfa53bc74e348abd99596|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|abc46f120330db553f483cc06b42be05ea2fef86fb8d3f5af82972a6e555a2f3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|b5fc293688e44fd0758493d2acc3797f0f53fe86b03ba52dfe62d188222f1c0a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|69306adba453be2392a0359516a8965370cb4f485dffd5b5c06101dfaa96a9d3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Highlights.|494e1cc293d66aaf145f5ea72a279c2e28a2639b693683c096973631a952c495|region.yellowish markup.warning.sublime_linter|32",
+								"SL.flake8.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.flake8.Highlights.|95fdbe1ec7774045b7af0effc60affc0e6ad5299749e2036a65a92d94a02a40a|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 180.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -9,6 +9,6 @@ from packetSuiter import *
 
 p = PacketSuiter()
 
-p.loadSuite("")
+p.loadSuite('D:\\packetailor\\samples\\ip-icmp.json')
 p.run()
 
