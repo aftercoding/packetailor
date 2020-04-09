@@ -7,23 +7,16 @@ class PacketSuiter(object):
 		super(PacketSuiter, self).__init__()
 		self.actionType = 'Sr'
 		self.layerDataList = []
-		# self.cmdStr = ""
 	
 	def loadSuite(self,packetSuite):
 		with open(packetSuite,'r') as f:
 			data = json.load(f)
-		# print (data)
 		for key in data:
-			# print(data[key])
 			ld = LayerData(key)
 			ld.setAttribute(data[key])
 			self.layerDataList.append(ld)
 
 	def jointCmd(self):
-		# ld1 = LayerData("IP")
-		# ld1.setAttribute({'dst': '192.168.0.1'})
-		# ld2 = LayerData("ICMP")
-		# layerDataList = [ld1,ld2]
 		cmdStr = ""
 		for ld in self.layerDataList:
 			cmdStr += ld.name +'('
@@ -40,10 +33,8 @@ class PacketSuiter(object):
 			# cmdStr += ')'
 			cmdStr +='/'
 		cmdStr = cmdStr[:-1]
-		print (cmdStr)
-
+		# print (cmdStr)
 		return cmdStr
-
 
 	def executeCmd(self):
 		if (self.actionType is 'Send'):
