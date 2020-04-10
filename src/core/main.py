@@ -5,6 +5,6 @@ from packetSuiter import *
 
 p = PacketSuiter()
 
-p.loadSuite('D:\\packetailor\\samples\\ip-icmp.json')
+p.loadSuite('D:\\packetailor\\samples\\dns.json')
 p.run()
 
